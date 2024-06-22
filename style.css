@@ -782,7 +782,7 @@ img {
     url('asset/red-bird.svg') no-repeat 60vw calc(100% - 11vw) / 45%,
     url(asset/pc_02_news_01bamboo.svg) no-repeat 6vw 5vh / contain, url(asset/pc_02_news_02bamboo.svg) no-repeat 11vw 59vh / contain, 
     var(--dark__color) url('asset/wing.svg') no-repeat 30vw -55vh / cover;
-    min-height: 150vh;
+    min-height: 100vh;
     position: relative;
     z-index: 2;
     overflow: hidden;
@@ -824,6 +824,7 @@ img {
     grid-template-columns: repeat(23, 1fr);
     gap: 2rem 0;
     padding-inline: 2rem;
+    padding-block-end: 45%;
     flex: 0 0 auto;
 }
 
